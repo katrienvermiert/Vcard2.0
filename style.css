@@ -1,0 +1,177 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #FFE2B7; 
+}
+
+.wrapper{
+    display: grid;
+    grid-template-rows: 25% 75%;
+    font-family: 'Merienda', cursive;
+    height: 85vh;
+    width: 60vw;
+    margin-top: 8vh;
+    margin-left: 20vw;
+    border-radius: 50px 10px 50px 10px;
+    box-shadow: 5px 5px 5px 5px rgb(41, 41, 41, 0.2);
+}
+
+#title{
+    display: grid;
+    grid-template-columns: 30% 70%;  
+    background-color: #373430;
+    color: #FFE2B7;
+    border-radius: 50px 10px 0 0;
+}
+
+#pic{
+    text-align: center;
+}
+
+img{
+    margin-top: 8px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+#name{
+    text-align: center;
+}
+
+.job{
+    margin-top: -25px;
+}
+
+#content{
+    display: grid;
+    grid-template-columns: 30% 70%; 
+    background-color: #fffaf2;
+    border-radius: 0 0 50px 10px;
+}
+
+#info{
+    background-color: #373430;
+    color: #FFE2B7;
+    display: grid;
+    grid-template-rows: 15% 40% 15% 30%;
+    text-align: center;
+    border-top: 2px solid #FFE2B7;
+    border-radius: 0 0 0 10px;
+}
+
+#profile{
+    color: #373430;
+    display: grid;
+    grid-template-rows: 75% 25%;
+    border-left: 2px solid #FFE2B7;
+    border-top: 2px solid #FFE2B7;
+    text-align: center;
+}
+
+.text{
+    font-size: 0.8em;
+    padding: 0 50px 0 50px;
+}
+
+.info{
+    display: grid;
+    grid-template-columns: 25% 75%;
+    margin-top: -15px;
+}
+
+#icons, #information{
+    display: grid;
+    grid-template-rows: 25% 25% 25% 25%;
+    font-size: 0.7em;
+}
+
+#age, #adress, #email, #phone{
+    text-align: left;
+}
+
+#adress{
+    margin-top: -10px;
+}
+
+#email, #phone{
+    margin-top: -5px;
+}
+
+#age1{
+    margin-top: 10px;
+    margin-right: 10px;
+    text-align: right;
+}
+
+#adress1{
+    margin-top: 0;
+    margin-right: 10px;
+    text-align: right;
+}
+
+#email1, #phone1{
+    margin-top: 5px;
+    margin-right: 10px;
+    text-align: right;
+}
+
+#skills{
+    display: grid;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    font-size: 0.7em;
+    margin-top: -10px;
+}
+
+#html, #css, #js, #php{
+    display: grid;
+    grid-template-columns: 25% 75%;
+}
+
+#icon1, #icon2, #icon3, #icon4{
+    text-align: right;
+    margin-right: 10px;
+}
+
+#skill1, #skill2, #skill3, #skill4{
+    text-align: left;
+}
+
+button{
+    font-family: 'Merienda', cursive;
+    font-size: 1.2em;
+    font-weight: bolder;
+    background-color: #FFE2B7;
+    color: #373430;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 1100px){
+    .general, .skills{
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (max-width: 864px){
+    .text{
+        font-size: 0.7em;
+    }
+}
+
+@media screen and (max-width: 740px){
+    .text{
+        font-size: 0.6em;
+    }
+
+    .general, .skills{
+        font-size: 0.6em;
+    }
+
+    .info, #skills{
+        font-size: 0.6em;
+    }
+}
